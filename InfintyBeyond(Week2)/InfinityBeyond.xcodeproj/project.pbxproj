@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F553C6BD1AA9DB0E00DE1A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C6BC1AA9DB0E00DE1A3E /* AppDelegate.swift */; };
+		F553C6C01AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F553C6BE1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodeld */; };
+		F553C6C21AA9DB0E00DE1A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C6C11AA9DB0E00DE1A3E /* ViewController.swift */; };
+		F553C6C51AA9DB0E00DE1A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F553C6C31AA9DB0E00DE1A3E /* Main.storyboard */; };
+		F553C6C71AA9DB0E00DE1A3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F553C6C61AA9DB0E00DE1A3E /* Images.xcassets */; };
+		F553C6CA1AA9DB0E00DE1A3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F553C6C81AA9DB0E00DE1A3E /* LaunchScreen.xib */; };
+		F553C6D61AA9DB0E00DE1A3E /* InfinityBeyondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C6D51AA9DB0E00DE1A3E /* InfinityBeyondTests.swift */; };
+		F553C6E41AB1F8AE00DE1A3E /* Sike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C6E31AB1F8AE00DE1A3E /* Sike.swift */; };
+		F553C6E61AB1F92600DE1A3E /* Sike.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F553C6E51AB1F92600DE1A3E /* Sike.mp4 */; };
+		F553C6E81AB2050000DE1A3E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553C6E71AB2050000DE1A3E /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F553C6D01AA9DB0E00DE1A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F553C6AF1AA9DB0D00DE1A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F553C6B61AA9DB0E00DE1A3E;
+			remoteInfo = InfinityBeyond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F553C6B71AA9DB0E00DE1A3E /* InfinityBeyond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityBeyond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F553C6BB1AA9DB0E00DE1A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F553C6BC1AA9DB0E00DE1A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F553C6BF1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfinityBeyond.xcdatamodel; sourceTree = "<group>"; };
+		F553C6C11AA9DB0E00DE1A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F553C6C41AA9DB0E00DE1A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F553C6C61AA9DB0E00DE1A3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F553C6C91AA9DB0E00DE1A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F553C6CF1AA9DB0E00DE1A3E /* InfinityBeyondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityBeyondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F553C6D41AA9DB0E00DE1A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F553C6D51AA9DB0E00DE1A3E /* InfinityBeyondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityBeyondTests.swift; sourceTree = "<group>"; };
+		F553C6E31AB1F8AE00DE1A3E /* Sike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sike.swift; sourceTree = "<group>"; };
+		F553C6E51AB1F92600DE1A3E /* Sike.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sike.mp4; path = ../../../Documents/Sike.mp4; sourceTree = "<group>"; };
+		F553C6E71AB2050000DE1A3E /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F553C6B41AA9DB0E00DE1A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F553C6CC1AA9DB0E00DE1A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F553C6AE1AA9DB0D00DE1A3E = {
+			isa = PBXGroup;
+			children = (
+				F553C6B91AA9DB0E00DE1A3E /* InfinityBeyond */,
+				F553C6D21AA9DB0E00DE1A3E /* InfinityBeyondTests */,
+				F553C6B81AA9DB0E00DE1A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F553C6B81AA9DB0E00DE1A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F553C6B71AA9DB0E00DE1A3E /* InfinityBeyond.app */,
+				F553C6CF1AA9DB0E00DE1A3E /* InfinityBeyondTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F553C6B91AA9DB0E00DE1A3E /* InfinityBeyond */ = {
+			isa = PBXGroup;
+			children = (
+				F553C6BC1AA9DB0E00DE1A3E /* AppDelegate.swift */,
+				F553C6C11AA9DB0E00DE1A3E /* ViewController.swift */,
+				F553C6C31AA9DB0E00DE1A3E /* Main.storyboard */,
+				F553C6C61AA9DB0E00DE1A3E /* Images.xcassets */,
+				F553C6C81AA9DB0E00DE1A3E /* LaunchScreen.xib */,
+				F553C6BE1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodeld */,
+				F553C6BA1AA9DB0E00DE1A3E /* Supporting Files */,
+				F553C6E31AB1F8AE00DE1A3E /* Sike.swift */,
+				F553C6E51AB1F92600DE1A3E /* Sike.mp4 */,
+				F553C6E71AB2050000DE1A3E /* DetailsViewController.swift */,
+			);
+			path = InfinityBeyond;
+			sourceTree = "<group>";
+		};
+		F553C6BA1AA9DB0E00DE1A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F553C6BB1AA9DB0E00DE1A3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F553C6D21AA9DB0E00DE1A3E /* InfinityBeyondTests */ = {
+			isa = PBXGroup;
+			children = (
+				F553C6D51AA9DB0E00DE1A3E /* InfinityBeyondTests.swift */,
+				F553C6D31AA9DB0E00DE1A3E /* Supporting Files */,
+			);
+			path = InfinityBeyondTests;
+			sourceTree = "<group>";
+		};
+		F553C6D31AA9DB0E00DE1A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F553C6D41AA9DB0E00DE1A3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F553C6B61AA9DB0E00DE1A3E /* InfinityBeyond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F553C6D91AA9DB0E00DE1A3E /* Build configuration list for PBXNativeTarget "InfinityBeyond" */;
+			buildPhases = (
+				F553C6B31AA9DB0E00DE1A3E /* Sources */,
+				F553C6B41AA9DB0E00DE1A3E /* Frameworks */,
+				F553C6B51AA9DB0E00DE1A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityBeyond;
+			productName = InfinityBeyond;
+			productReference = F553C6B71AA9DB0E00DE1A3E /* InfinityBeyond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F553C6CE1AA9DB0E00DE1A3E /* InfinityBeyondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F553C6DC1AA9DB0E00DE1A3E /* Build configuration list for PBXNativeTarget "InfinityBeyondTests" */;
+			buildPhases = (
+				F553C6CB1AA9DB0E00DE1A3E /* Sources */,
+				F553C6CC1AA9DB0E00DE1A3E /* Frameworks */,
+				F553C6CD1AA9DB0E00DE1A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F553C6D11AA9DB0E00DE1A3E /* PBXTargetDependency */,
+			);
+			name = InfinityBeyondTests;
+			productName = InfinityBeyondTests;
+			productReference = F553C6CF1AA9DB0E00DE1A3E /* InfinityBeyondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F553C6AF1AA9DB0D00DE1A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Meny Metekia";
+				TargetAttributes = {
+					F553C6B61AA9DB0E00DE1A3E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F553C6CE1AA9DB0E00DE1A3E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F553C6B61AA9DB0E00DE1A3E;
+					};
+				};
+			};
+			buildConfigurationList = F553C6B21AA9DB0D00DE1A3E /* Build configuration list for PBXProject "InfinityBeyond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F553C6AE1AA9DB0D00DE1A3E;
+			productRefGroup = F553C6B81AA9DB0E00DE1A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F553C6B61AA9DB0E00DE1A3E /* InfinityBeyond */,
+				F553C6CE1AA9DB0E00DE1A3E /* InfinityBeyondTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F553C6B51AA9DB0E00DE1A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F553C6C51AA9DB0E00DE1A3E /* Main.storyboard in Resources */,
+				F553C6CA1AA9DB0E00DE1A3E /* LaunchScreen.xib in Resources */,
+				F553C6C71AA9DB0E00DE1A3E /* Images.xcassets in Resources */,
+				F553C6E61AB1F92600DE1A3E /* Sike.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F553C6CD1AA9DB0E00DE1A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F553C6B31AA9DB0E00DE1A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F553C6C21AA9DB0E00DE1A3E /* ViewController.swift in Sources */,
+				F553C6E41AB1F8AE00DE1A3E /* Sike.swift in Sources */,
+				F553C6C01AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodeld in Sources */,
+				F553C6BD1AA9DB0E00DE1A3E /* AppDelegate.swift in Sources */,
+				F553C6E81AB2050000DE1A3E /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F553C6CB1AA9DB0E00DE1A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F553C6D61AA9DB0E00DE1A3E /* InfinityBeyondTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F553C6D11AA9DB0E00DE1A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F553C6B61AA9DB0E00DE1A3E /* InfinityBeyond */;
+			targetProxy = F553C6D01AA9DB0E00DE1A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F553C6C31AA9DB0E00DE1A3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F553C6C41AA9DB0E00DE1A3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F553C6C81AA9DB0E00DE1A3E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F553C6C91AA9DB0E00DE1A3E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F553C6D71AA9DB0E00DE1A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F553C6D81AA9DB0E00DE1A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F553C6DA1AA9DB0E00DE1A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfinityBeyond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F553C6DB1AA9DB0E00DE1A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfinityBeyond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F553C6DD1AA9DB0E00DE1A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfinityBeyondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityBeyond.app/InfinityBeyond";
+			};
+			name = Debug;
+		};
+		F553C6DE1AA9DB0E00DE1A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfinityBeyondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityBeyond.app/InfinityBeyond";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F553C6B21AA9DB0D00DE1A3E /* Build configuration list for PBXProject "InfinityBeyond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F553C6D71AA9DB0E00DE1A3E /* Debug */,
+				F553C6D81AA9DB0E00DE1A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F553C6D91AA9DB0E00DE1A3E /* Build configuration list for PBXNativeTarget "InfinityBeyond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F553C6DA1AA9DB0E00DE1A3E /* Debug */,
+				F553C6DB1AA9DB0E00DE1A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F553C6DC1AA9DB0E00DE1A3E /* Build configuration list for PBXNativeTarget "InfinityBeyondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F553C6DD1AA9DB0E00DE1A3E /* Debug */,
+				F553C6DE1AA9DB0E00DE1A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F553C6BE1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F553C6BF1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodel */,
+			);
+			currentVersion = F553C6BF1AA9DB0E00DE1A3E /* InfinityBeyond.xcdatamodel */;
+			path = InfinityBeyond.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F553C6AF1AA9DB0D00DE1A3E /* Project object */;
+}
